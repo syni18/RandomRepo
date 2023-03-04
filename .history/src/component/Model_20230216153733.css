@@ -1,0 +1,33 @@
+.main {
+    height: 99vh;
+    position: relative;
+    background-color: #333;
+}
+
+.container {
+    position: absolute;
+    top: 30px;
+    left: 35%;
+    width: 550px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+.container .part1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.container .part2 p {
+    font-size: 1em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.container .part3 {
+    padding-bottom: 10px;
+}
+.container .part3 input {
+    padding: 5px 15px;
+    font-weight: 600;
+
+}

@@ -1,0 +1,86 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.input-box {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 50px;
+}
+
+.predict-button {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px 0px 0px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green;
+}
+
+.predicted-number {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle p {
+    font-size: 24px;
+    color: white;
+}
+
+.awesome-section {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.awesome-section h2 {
+    font-size: 24px;
+}
+
+.awesome-section li {
+    font-size: 18px;
+    margin-top: 10px;
+}
